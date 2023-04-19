@@ -4,8 +4,8 @@
   "description": "climate change api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon index.js"
+    "start" : "nodemon index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Víctor Gutiérrez",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "axios": "^1.3.5",
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
   }
 }
